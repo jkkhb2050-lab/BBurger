@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bamboo Burger | Afghani Burger, Rs 99 Deal</title>
+<meta name="description" content="Bamboo Burger: Afghani burgers from Rs 99. Order on WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7f0;--surface:#fff;--ink:#1b2a1f;--muted:#5b6a5f;--line:#dfe4d6;--green:#2f5d3a;--green-d:#1f3f28;--gold:#f2b31d;--red:#a8232f;--on-g:#fff;--sh:0 6px 24px rgba(31,63,40,.14);--pic1:#e8efdd;--pic2:#f6e7b8}
+@media (prefers-color-scheme:dark){:root{--bg:#121a14;--surface:#1b261e;--ink:#eef2e8;--muted:#a3b1a6;--line:#2b3a2f;--green:#5fa56e;--green-d:#0e1511;--on-g:#0e1511;--sh:0 6px 24px rgba(0,0,0,.4);--pic1:#24372a;--pic2:#3a3320}}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.55;padding-bottom:env(safe-area-inset-bottom,0px)}
+h1,h2,h3,.slab{font-family:'Alfa Slab One',Georgia,serif;font-weight:400;line-height:1.1;margin:0}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+svg.art{display:block}
+header{position:sticky;top:0;z-index:20;background:var(--green-d);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-family:'Alfa Slab One',Georgia,serif;font-size:1.3rem;color:#fff;text-decoration:none}
+.logo i{background:var(--gold);border-radius:50%;width:38px;height:38px;display:grid;place-items:center}
+.cart-btn{background:var(--gold);color:#1b2a1f;border:0;border-radius:999px;padding:9px 18px;font-weight:700;display:flex;gap:8px;align-items:center}
+.cart-btn b{background:#1b2a1f;color:var(--gold);border-radius:999px;min-width:22px;height:22px;display:inline-grid;place-items:center;font-size:.8rem;padding:0 6px}
+.bamboo{height:10px;background:repeating-linear-gradient(90deg,var(--green) 0 118px,rgba(0,0,0,.4) 118px 122px)}
+
+.hero{background:var(--green-d);color:#fff;padding:44px 0 56px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center}
+.hero h1{font-size:clamp(2.3rem,6vw,4.2rem)}
+.hero p{font-size:1.1rem;max-width:46ch;color:#d5e2d6;margin:16px 0 24px}
+.btn{display:inline-block;border:0;border-radius:12px;padding:14px 26px;font-weight:700;text-decoration:none;font-size:1rem;color:#1b2a1f;background:var(--gold)}
+.btn.line{background:transparent;border:2px solid #fff;color:#fff;margin-left:8px}
+.stage{position:relative;max-width:360px;width:100%;justify-self:center}
+.stage .disc{background:var(--green);border-radius:50%;aspect-ratio:1;display:grid;place-items:center;box-shadow:0 0 0 14px rgba(242,179,29,.18),0 0 0 28px rgba(242,179,29,.08)}
+.stage .disc svg{width:78%;animation:bob 3s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-10px) rotate(-3deg)}}
+.sticker{position:absolute;right:-6px;top:-14px;width:40%;aspect-ratio:1;border-radius:50%;background:var(--red);border:4px dashed var(--gold);color:#fff;display:grid;place-content:center;text-align:center;transform:rotate(10deg);box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.sticker small{font-weight:700;font-size:.85rem;line-height:1}
+.sticker b{font-family:'Alfa Slab One',serif;font-weight:400;font-size:clamp(2.6rem,9vw,4rem);line-height:1}
+.dealbox{margin-top:22px;background:rgba(255,255,255,.08);border:2px dashed var(--gold);border-radius:14px;padding:12px 16px;display:inline-block}
+.dealbox span{display:block;font-weight:700;margin-bottom:6px}
+.cd{display:flex;gap:8px}
+.cd div{background:#1b2a1f;color:var(--gold);border-radius:10px;padding:6px 10px;min-width:56px;text-align:center;font-size:.72rem;line-height:1.2}
+.cd b{display:block;font-family:'Alfa Slab One',serif;font-weight:400;font-size:1.5rem}
+.ticker{background:var(--gold);color:#1b2a1f;overflow:hidden;white-space:nowrap;font-weight:700;padding:10px 0}
+.ticker div{display:inline-block;padding-left:100%;animation:run 28s linear infinite}
+@keyframes run{to{transform:translateX(-100%)}}
+
+section{padding:48px 0}
+.sec-head{margin-bottom:20px}.sec-head h2{font-size:clamp(1.8rem,4vw,2.4rem)}.sec-head p{color:var(--muted);margin:6px 0 0}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:20px}
+.tab{border:2px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 18px;font-weight:500;white-space:nowrap}
+.tab[aria-pressed=true]{background:var(--green);border-color:var(--green);color:var(--on-g)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--sh)}
+.card.hot{border:3px solid var(--red)}
+.pic{position:relative;aspect-ratio:200/130;background:linear-gradient(135deg,var(--pic1),var(--pic2))}
+.pic svg,.pic img{position:absolute;inset:0;width:100%;height:100%}
+.pic img{object-fit:cover}
+.body{padding:16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.body h3{font-size:1.15rem}.body p{margin:0;color:var(--muted);font-size:.92rem;flex:1}
+.tag{align-self:flex-start;background:var(--red);color:#fff;font-size:.75rem;font-weight:700;border-radius:6px;padding:2px 8px}
+.row{display:flex;justify-content:space-between;align-items:center;margin-top:10px;gap:8px}
+.price{font-weight:700;font-size:1.2rem;color:var(--green)}.price s{color:var(--muted);font-weight:400;font-size:.9rem;margin-right:6px}
+.add{background:var(--green);color:var(--on-g);border:0;border-radius:10px;padding:9px 16px;font-weight:700}
+.add:disabled{opacity:.5;cursor:not-allowed}
+.qty{display:flex;align-items:center;gap:6px}
+.qty button{width:32px;height:32px;border-radius:8px;border:2px solid var(--green);background:transparent;color:var(--green);font-weight:700;font-size:1.1rem;line-height:1}
+.qty span{min-width:22px;text-align:center;font-weight:700}
+.how{background:var(--surface);border-block:1px solid var(--line)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.step h3{font-size:1.1rem;margin-bottom:6px}.step p{margin:0;color:var(--muted)}
+footer{background:var(--green-d);color:#cfdccf;padding:36px 0 90px;text-align:center}footer a{color:var(--gold)}
+
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:opacity .2s;z-index:40}
+.overlay.open{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--bg);z-index:50;transform:translateX(100%);transition:transform .25s;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.drawer.open{transform:none}
+.d-head{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line)}.d-head h2{font-size:1.4rem}
+.x{background:none;border:0;font-size:1.8rem;color:var(--ink);line-height:1}
+.d-body{flex:1;overflow-y:auto;padding:16px 20px}
+.line{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px dashed var(--line)}.line small{color:var(--muted);display:block}
+.empty{color:var(--muted);text-align:center;padding:30px 0}
+.totals{margin:14px 0}.totals div{display:flex;justify-content:space-between;padding:3px 0}
+.totals .t{font-weight:700;font-size:1.15rem;border-top:2px solid var(--ink);margin-top:6px;padding-top:8px}
+label{display:block;font-weight:500;font-size:.9rem;margin:12px 0 4px}
+input,textarea{width:100%;font:inherit;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:10px;padding:10px 12px}
+input:focus,textarea:focus{border-color:var(--green);outline:none}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.seg button{border:2px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:10px;font-weight:500}
+.seg button[aria-pressed=true]{border-color:var(--green);background:var(--green);color:var(--on-g)}
+.d-foot{padding:14px 20px;border-top:1px solid var(--line);background:var(--surface)}
+.wa{width:100%;background:#25d366;color:#06361a;border:0;border-radius:12px;padding:15px;font-weight:700;font-size:1.05rem}
+.wa:disabled{opacity:.5;cursor:not-allowed}
+.err{color:var(--red);font-size:.88rem;margin:8px 0 0;min-height:1.2em}
+.bar{display:none}
+
+/* 99 popup */
+.pop{position:fixed;inset:0;z-index:60;display:none;place-items:center;padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));background:rgba(10,20,12,.75)}
+.pop.open{display:grid}
+.pop-card{position:relative;overflow:hidden;width:min(500px,100%);max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;border-radius:clamp(20px,5vw,28px);background:var(--red);color:#fff;text-align:center;padding:clamp(16px,3.5vh,28px) clamp(14px,4vw,24px) clamp(16px,3vh,24px);border:clamp(3px,1vw,5px) solid var(--gold);animation:pop .55s cubic-bezier(.2,1.5,.4,1)}
+@keyframes pop{from{transform:scale(.4) rotate(-6deg);opacity:0}}
+.rays{position:absolute;left:50%;top:38%;width:240%;aspect-ratio:1;translate:-50% -50%;background:repeating-conic-gradient(rgba(242,179,29,.28) 0 10deg,transparent 10deg 20deg);animation:spin 40s linear infinite}
+@keyframes spin{to{rotate:360deg}}
+.pop-card>*{position:relative}
+.pop-x{position:absolute!important;right:12px;top:8px;color:#fff}
+.pop .kick{font-weight:700;font-size:1.05rem;color:var(--gold)}
+.pop .big{display:flex;justify-content:center;align-items:flex-start;gap:6px;line-height:.9;margin:4px 0}
+.pop .big small{font-family:'Alfa Slab One',serif;font-size:clamp(1.4rem,6vw,2.4rem);margin-top:clamp(.7rem,3vw,1.4rem);color:var(--gold)}
+.pop .big b{font-family:'Alfa Slab One',serif;font-weight:400;font-size:clamp(5rem,min(34vw,28vh),13rem);color:#fff;text-shadow:0 6px 0 #1b2a1f,0 0 40px rgba(242,179,29,.8)}
+.pop h2{font-size:clamp(1.2rem,4.5vw,1.6rem)}
+.pop .kick{font-size:clamp(.9rem,3.4vw,1.05rem)}
+.pop .cd{gap:clamp(4px,1.5vw,8px)}
+.pop .cd div{min-width:clamp(46px,15vw,60px);padding:clamp(4px,1vh,6px) clamp(6px,2vw,10px)}
+.pop .cd b{font-size:clamp(1.2rem,5vw,1.5rem)}
+.pop .btn{padding:clamp(11px,2vh,14px) 20px}
+.pop-x{width:44px;height:44px}
+@media (max-height:520px){.pop p{margin:4px 0 8px}.pop .cd{margin-bottom:10px}.pop .skip{margin-top:4px}}
+.pop p{margin:8px 0 14px}
+.pop .cd{justify-content:center;margin-bottom:16px}
+.pop .btn{width:100%;font-size:1.1rem}
+.pop .skip{background:none;border:0;color:#fff;margin-top:10px;text-decoration:underline}
+
+@media (max-width:760px){
+ .hero .wrap{grid-template-columns:1fr}.stage{max-width:250px;order:-1;margin-top:14px}
+ .btn.line{margin:10px 0 0}.cart-btn{display:none}
+ .bar{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:30;background:var(--gold);color:#1b2a1f;border:0;border-radius:14px;padding:14px 18px;font-weight:700;display:none;justify-content:space-between;box-shadow:var(--sh)}
+ .bar.show{display:flex}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<!-- Built-in artwork (no image files, so nothing can go missing on Vercel) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="burger" viewBox="0 0 100 100">
+  <path d="M14 70h72v6a12 12 0 0 1-12 12H26a12 12 0 0 1-12-12z" fill="#e0a043"/>
+  <rect x="9" y="58" width="82" height="13" rx="6.5" fill="var(--p,#5a3320)"/>
+  <path d="M11 52h78l-9 10-9-6-11 8-11-8-11 8-11-8-9 6z" fill="#f7c531"/>
+  <path d="M9 48q8-8 16 0t16 0 16 0 16 0 18 0v7H9z" fill="#6fbf4a"/>
+  <path d="M12 47a38 34 0 0 1 76 0z" fill="#eaa94b"/>
+  <g fill="#fff3d6"><ellipse cx="34" cy="24" rx="4" ry="2" transform="rotate(-20 34 24)"/><ellipse cx="52" cy="17" rx="4" ry="2"/><ellipse cx="68" cy="26" rx="4" ry="2" transform="rotate(20 68 26)"/><ellipse cx="45" cy="33" rx="4" ry="2" transform="rotate(10 45 33)"/><ellipse cx="62" cy="38" rx="4" ry="2" transform="rotate(-10 62 38)"/></g>
+ </symbol>
+ <symbol id="fries" viewBox="0 0 100 100">
+  <g fill="#f6c640"><rect x="22" y="8" width="9" height="50" rx="3" transform="rotate(-12 26 40)"/><rect x="34" y="4" width="9" height="54" rx="3" transform="rotate(-5 38 40)"/><rect x="46" y="2" width="9" height="56" rx="3"/><rect x="58" y="5" width="9" height="53" rx="3" transform="rotate(7 62 40)"/><rect x="69" y="9" width="9" height="49" rx="3" transform="rotate(14 73 40)"/></g>
+  <path d="M18 46h64l-6 46a5 5 0 0 1-5 4H29a5 5 0 0 1-5-4z" fill="#d62f3a"/>
+  <path d="M26 62h48l-1 12H27z" fill="#fff"/>
+  <circle cx="50" cy="68" r="4" fill="#d62f3a"/>
+ </symbol>
+ <symbol id="cola" viewBox="0 0 70 100">
+  <path d="M44 2h5l-6 22h-5z" fill="#ffffff" stroke="#d62f3a" stroke-width="2"/>
+  <rect x="8" y="22" width="54" height="8" rx="4" fill="#3a2a25"/>
+  <path d="M11 30h48l-5 64a5 5 0 0 1-5 4H21a5 5 0 0 1-5-4z" fill="#d62f3a"/>
+  <path d="M13 50h44l-1 20H15z" fill="#fff"/>
+  <circle cx="35" cy="60" r="7" fill="#d62f3a"/>
+ </symbol>
+</svg>
+
+<header>
+ <div class="wrap">
+  <a class="logo" href="#top" aria-label="Bamboo Burger home"><i><svg class="art" width="28" height="28"><use href="#burger"/></svg></i>Bamboo Burger</a>
+  <button class="cart-btn" id="openCart" aria-label="Open order">Your order <b id="count">0</b></button>
+ </div>
+ <div class="bamboo"></div>
+</header>
+
+<main id="top">
+ <div class="hero"><div class="wrap">
+  <div>
+   <h1>Afghani Burger that’s big on taste, small on price.</h1>
+   <p>Crispy patty, creamy Afghani sauce, soft toasted bun. Pick your food, send it on WhatsApp and we’ll get cooking.</p>
+   <a class="btn" href="#menu">Order now</a><a class="btn line" href="#how">How it works</a>
+   <div class="dealbox" id="heroDeal" hidden><span id="heroDealTxt"></span><div class="cd"></div></div>
+  </div>
+  <div class="stage">
+   <div class="disc"><svg class="art" viewBox="0 0 100 100"><use href="#burger"/></svg></div>
+   <div class="sticker" id="sticker" hidden><small>Only Rs</small><b>99</b></div>
+  </div>
+ </div></div>
+ <div class="ticker" aria-hidden="true"><div>🔥 Afghani Burger Rs 99 &nbsp;·&nbsp; 21 to 28 November only &nbsp;·&nbsp; Burger + Drink Rs 199 &nbsp;·&nbsp; Chicken Burger + Drink Rs 249 &nbsp;·&nbsp; 2 Burgers + Cola Rs 399 &nbsp;·&nbsp; Fries Rs 49 &nbsp;·&nbsp; Cola Rs 49 &nbsp;&nbsp;🍔🍟🥤</div></div>
+
+ <section id="menu"><div class="wrap">
+  <div class="sec-head"><h2>Our menu</h2><p>Tap Add to start your order. Prices are in Pakistani rupees.</p></div>
+  <div class="tabs" id="tabs" role="group" aria-label="Menu categories"></div>
+  <div class="grid" id="grid"></div>
+ </div></section>
+
+ <section class="how" id="how"><div class="wrap">
+  <div class="sec-head"><h2>How to order</h2></div>
+  <div class="steps">
+   <div class="step"><h3>1. Choose your food</h3><p>Add burgers, combos, fries and drinks.</p></div>
+   <div class="step"><h3>2. Enter your details</h3><p>Your name, phone number and delivery address.</p></div>
+   <div class="step"><h3>3. Send on WhatsApp</h3><p>Your full order opens in WhatsApp. Press send and we’ll confirm it.</p></div>
+  </div>
+ </div></section>
+</main>
+
+<footer><div class="wrap">
+ <p><strong>Bamboo Burger</strong> · Afghani Burger</p>
+ <p>Order on WhatsApp: <a href="https://wa.me/923255256602">0325 5256602</a></p>
+ <p>© <span id="yr"></span> Bamboo Burger. All rights reserved.</p>
+</div></footer>
+
+<button class="bar" id="bar"><span id="barCount">0 items</span><span id="barTotal"></span></button>
+<div class="overlay" id="overlay"></div>
+
+<aside class="drawer" id="drawer" aria-label="Your order" aria-hidden="true">
+ <div class="d-head"><h2>Your order</h2><button class="x" id="closeCart" aria-label="Close">×</button></div>
+ <div class="d-body">
+  <div id="lines"></div><div class="totals" id="totals"></div>
+  <label>How would you like your order?</label>
+  <div class="seg"><button type="button" data-type="Delivery" aria-pressed="true">Delivery</button><button type="button" data-type="Pickup" aria-pressed="false">Pickup</button></div>
+  <label for="name">Your name</label><input id="name" autocomplete="name" placeholder="e.g. Ahmed Khan">
+  <label for="phone">Phone number</label><input id="phone" type="tel" autocomplete="tel" placeholder="03XX XXXXXXX">
+  <div id="addrBox"><label for="addr">Delivery address</label><textarea id="addr" rows="2" autocomplete="street-address" placeholder="House, street, area, landmark"></textarea></div>
+  <label for="note">Notes (optional)</label><textarea id="note" rows="2" placeholder="Which drink do you want with your combo? Less spicy, etc."></textarea>
+  <p class="err" id="err" role="alert"></p>
+ </div>
+ <div class="d-foot"><button class="wa" id="send" disabled>Send order on WhatsApp</button></div>
+</aside>
+
+<div class="pop" id="pop" role="dialog" aria-modal="true" aria-label="Rs 99 burger deal">
+ <div class="pop-card">
+  <div class="rays"></div>
+  <button class="x pop-x" id="popX" aria-label="Close">×</button>
+  <div class="kick" id="popKick"></div>
+  <div class="big"><small>Rs</small><b>99</b></div>
+  <h2>Afghani Burger</h2>
+  <p id="popSub"></p>
+  <div class="cd"></div>
+  <a class="btn" id="popGo" href="#menu">Grab the deal</a>
+  <button class="skip" id="popSkip">Maybe later</button>
+ </div>
+</div>
+
+<script>
+/* ====== SETTINGS ====== */
+const WHATSAPP="923255256602";            // 03255256602
+const DELIVERY_FEE=0;                     // Rs. Change if you charge for delivery
+const START=new Date("2026-11-21T00:00:00+05:00");  // Rs 99 deal starts (Pakistan time)
+const END=new Date("2026-11-28T23:59:59+05:00");    // Rs 99 deal ends
+const DEAL_PRICE=99;
+
+/* img: optional photo path, e.g. "images/combo.jpg" (put the folder next to index.html).
+   If no photo is set or the file is missing, the built-in artwork shows instead. */
+const MENU=[
+ {id:"deal",cat:"Deals",name:"Afghani Burger Rs 99 Deal",price:DEAL_PRICE,art:"deal",tag:"21 to 28 Nov only",img:"",desc:"Our Afghani burger at a crazy one-week price."},
+ {id:"c1",cat:"Deals",name:"Burger + Drink",price:199,art:"c1",tag:"Combo",img:"",desc:"One Afghani burger with a chilled drink."},
+ {id:"c2",cat:"Deals",name:"Chicken Burger + Drink",price:249,art:"c2",img:"",desc:"Crispy chicken burger with a chilled drink."},
+ {id:"c3",cat:"Deals",name:"2 Burgers + Cola",price:399,art:"c3",tag:"Best value",img:"",desc:"Two Afghani burgers and a cola. Perfect to share."},
+ {id:"f1",cat:"Sides & Drinks",name:"Fries",price:49,art:"fries",img:"",desc:"Hot, golden and crispy."},
+ {id:"d1",cat:"Sides & Drinks",name:"Cola",price:49,art:"cola",img:"",desc:"Ice-cold cola."}
+];
+/* ====================== */
+
+const U=(id,x,y,w,h,s="")=>`<use href="#${id}" x="${x}" y="${y}" width="${w}" height="${h}" style="${s}"/>`;
+const ART={
+ deal:()=>U("burger",40,10,110,110)+`<circle cx="160" cy="38" r="27" fill="#a8232f" stroke="#f2b31d" stroke-width="3"/><text x="160" y="49" text-anchor="middle" font-family="Alfa Slab One,serif" font-size="30" fill="#fff">99</text>`,
+ c1:()=>U("burger",18,14,108,108)+U("cola",128,20,56,80),
+ c2:()=>U("burger",18,14,108,108,"--p:#d98a2b")+U("cola",128,20,56,80),
+ c3:()=>U("burger",-8,26,92,92)+U("burger",50,10,104,104)+U("cola",144,26,52,74),
+ fries:()=>U("fries",50,10,100,112),
+ cola:()=>U("cola",60,8,80,114)
+};
+const $=s=>document.querySelector(s), fmt=n=>"Rs "+n.toLocaleString("en-PK"), find=id=>MENU.find(m=>m.id===id);
+const phase=()=>{const n=Date.now();return n<START?"soon":n<=END?"live":"over"};
+let cart={},cat="All",type="Delivery";
+try{cart=JSON.parse(localStorage.getItem("bb_cart")||"{}")||{}}catch(e){}
+const save=()=>{try{localStorage.setItem("bb_cart",JSON.stringify(cart))}catch(e){}};
+const visible=()=>MENU.filter(m=>m.id!=="deal"||phase()!=="over");
+
+function renderTabs(){
+ const cats=["All",...new Set(visible().map(m=>m.cat))];
+ $("#tabs").innerHTML=cats.map(c=>`<button class="tab" aria-pressed="${c===cat}" data-c="${c}">${c}</button>`).join("");
+}
+function renderMenu(){
+ $("#grid").innerHTML=visible().filter(m=>cat==="All"||m.cat===cat).map(m=>{
+  const q=cart[m.id]||0, locked=m.id==="deal"&&phase()==="soon";
+  const pic=`<div class="pic"><svg class="art" viewBox="0 0 200 130" role="img" aria-label="${m.name}">${ART[m.art]()}</svg>${m.img?`<img src="${m.img}" alt="${m.name}" loading="lazy" onerror="this.remove()">`:""}</div>`;
+  return `<article class="card${m.id==="deal"?" hot":""}">${pic}<div class="body">${m.tag?`<span class="tag">${m.tag}</span>`:""}<h3>${m.name}</h3><p>${m.desc}</p>
+  <div class="row"><span class="price">${fmt(m.price)}</span>
+  ${locked?`<button class="add" disabled>Starts 21 Nov</button>`:q?`<div class="qty"><button data-m="${m.id}" aria-label="Remove one">−</button><span>${q}</span><button data-p="${m.id}" aria-label="Add one">+</button></div>`:`<button class="add" data-p="${m.id}">Add</button>`}</div></div></article>`}).join("");
+}
+function totals(){
+ const sub=Object.entries(cart).reduce((s,[id,q])=>s+find(id).price*q,0), n=Object.values(cart).reduce((a,b)=>a+b,0);
+ const fee=type==="Delivery"&&sub>0?DELIVERY_FEE:0;
+ return {sub,n,fee,total:sub+fee};
+}
+function renderCart(){
+ if(phase()!=="live"&&cart.deal){delete cart.deal;save()}
+ const t=totals(), ids=Object.keys(cart);
+ $("#count").textContent=t.n; $("#barCount").textContent=t.n+(t.n===1?" item":" items");
+ $("#barTotal").textContent="View order · "+fmt(t.sub); $("#bar").classList.toggle("show",t.n>0);
+ $("#lines").innerHTML=ids.length?ids.map(id=>{const m=find(id),q=cart[id];return `<div class="line"><div>${m.name}<small>${fmt(m.price)} each</small></div><div style="text-align:right"><div class="qty"><button data-m="${id}" aria-label="Remove one">−</button><span>${q}</span><button data-p="${id}" aria-label="Add one">+</button></div><small>${fmt(m.price*q)}</small></div></div>`}).join(""):`<p class="empty">Your order is empty. Add something tasty from the menu.</p>`;
+ $("#totals").innerHTML=ids.length?`<div><span>Subtotal</span><span>${fmt(t.sub)}</span></div>${type==="Delivery"?`<div><span>Delivery</span><span>${t.fee?fmt(t.fee):"Free"}</span></div>`:""}<div class="t"><span>Total</span><span>${fmt(t.total)}</span></div>`:"";
+ $("#send").disabled=!ids.length; $("#addrBox").style.display=type==="Delivery"?"block":"none";
+}
+function change(id,d){cart[id]=(cart[id]||0)+d;if(cart[id]<=0)delete cart[id];save();renderMenu();renderCart()}
+function openCart(o){$("#drawer").classList.toggle("open",o);$("#overlay").classList.toggle("open",o);$("#drawer").setAttribute("aria-hidden",!o);document.body.style.overflow=o?"hidden":"";if(o)$("#closeCart").focus()}
+function send(){
+ const name=$("#name").value.trim(),phone=$("#phone").value.trim(),addr=$("#addr").value.trim(),note=$("#note").value.trim(),err=$("#err");err.textContent="";
+ if(!name){err.textContent="Please enter your name.";$("#name").focus();return}
+ if(phone.replace(/\D/g,"").length<10){err.textContent="Please enter a valid phone number.";$("#phone").focus();return}
+ if(type==="Delivery"&&!addr){err.textContent="Please enter your delivery address.";$("#addr").focus();return}
+ const t=totals(), lines=Object.entries(cart).map(([id,q])=>`• ${q} x ${find(id).name} - ${fmt(find(id).price*q)}`).join("\n");
+ const msg=`*New Order - Bamboo Burger*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Order type:* ${type}\n`+(type==="Delivery"?`*Address:* ${addr}\n`:"")+`\n*Items*\n${lines}\n\n*Subtotal:* ${fmt(t.sub)}\n`+(type==="Delivery"?`*Delivery:* ${t.fee?fmt(t.fee):"Free"}\n`:"")+`*Total:* ${fmt(t.total)}\n`+(note?`\n*Notes:* ${note}\n`:"")+`\nPayment: Cash on ${type==="Delivery"?"delivery":"pickup"}`;
+ window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`,"_blank","noopener");
+}
+
+/* countdown + deal messaging */
+function tick(){
+ const p=phase(); if(p==="over"){document.querySelectorAll(".cd").forEach(e=>e.innerHTML="");return}
+ let s=Math.max(0,Math.floor(((p==="soon"?START:END)-Date.now())/1000));
+ const v=[Math.floor(s/86400),Math.floor(s%86400/3600),Math.floor(s%3600/60),s%60], l=["days","hours","min","sec"];
+ const h=v.map((x,i)=>`<div><b>${String(x).padStart(2,"0")}</b>${l[i]}</div>`).join("");
+ document.querySelectorAll(".cd").forEach(e=>e.innerHTML=h);
+}
+function setupDeal(){
+ const p=phase(); if(p==="over")return;
+ $("#sticker").hidden=false; $("#heroDeal").hidden=false;
+ $("#heroDealTxt").textContent=p==="soon"?"Rs 99 burger deal starts in":"Rs 99 burger deal ends in";
+ $("#popKick").textContent=p==="soon"?"Get ready! Exclusive deal coming":"Exclusive deal is live now";
+ $("#popSub").textContent=p==="soon"?"Starts 21 November 2026. One week only, until 28 November.":"Only until 28 November 2026. Don’t miss it!";
+ $("#popGo").textContent=p==="soon"?"See the menu":"Add to my order";
+ setTimeout(()=>{$("#pop").classList.add("open");$("#popGo").focus()},500);
+}
+const closePop=()=>$("#pop").classList.remove("open");
+
+document.addEventListener("click",e=>{
+ const b=e.target.closest("button"); if(!b)return;
+ if(b.dataset.p)change(b.dataset.p,1); else if(b.dataset.m)change(b.dataset.m,-1);
+ else if(b.dataset.c){cat=b.dataset.c;renderTabs();renderMenu()}
+ else if(b.dataset.type){type=b.dataset.type;document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x.dataset.type===type));renderCart()}
+});
+$("#popGo").onclick=()=>{closePop();if(phase()==="live"){change("deal",1);openCart(true)}};
+$("#popX").onclick=closePop;$("#popSkip").onclick=closePop;
+$("#openCart").onclick=$("#bar").onclick=()=>openCart(true);
+$("#closeCart").onclick=$("#overlay").onclick=()=>openCart(false);
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){openCart(false);closePop()}});
+$("#send").onclick=send; $("#yr").textContent=new Date().getFullYear();
+renderTabs();renderMenu();renderCart();setupDeal();tick();setInterval(tick,1000);
+</script>
+</body>
+</html>
